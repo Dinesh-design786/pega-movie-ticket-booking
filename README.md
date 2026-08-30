@@ -144,6 +144,6 @@ The My Work section displays tasks assigned to users, including case types and t
 
 The application home page provides access to tasks, announcements, and other application features.
 
-![Application Home]()
+![Application Home](ChatGPT1.png)
 ```text
 Ticket Price × Number of Tickets
