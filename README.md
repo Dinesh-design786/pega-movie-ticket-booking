@@ -108,7 +108,7 @@ The booking price may need to be calculated manually.
 
 The development overview shows the progress of the application, including completed case types, data objects, personas, and channels.
 
-![Development Overview](Screenshot 2026-08-30 140929.png)
+![Development Overview](Screenshot1.png)
 
 ---
 
@@ -116,7 +116,7 @@ The development overview shows the progress of the application, including comple
 
 The Show Management dashboard displays important information such as revenue, booking volume, available seats, and show records.
 
-![Show Management Dashboard](screenshots/show-management-dashboard.png)
+![Show Management Dashboard](Screenshot2.png)
 
 ---
 
@@ -124,7 +124,7 @@ The Show Management dashboard displays important information such as revenue, bo
 
 This screen displays the Show Management cases and their current work status.
 
-![Case Management](screenshots/case-management.png)
+![Case Management](Screenshot3.png)
 
 ---
 
@@ -132,8 +132,8 @@ This screen displays the Show Management cases and their current work status.
 
 The My Work section displays tasks assigned to users, including case types and their current status.
 
-![My Work](screenshots/my-work.png)
-
+![My Work](Screenshot4.png)
+![My Work](Screenshot5.png)
 ---
 
 ### 5. Application Home
