@@ -108,7 +108,7 @@ The booking price may need to be calculated manually.
 
 The development overview shows the progress of the application, including completed case types, data objects, personas, and channels.
 
-![Development Overview](screenshots/development-overview.png)
+![Development Overview](Screenshot 2026-08-30 140929.png)
 
 ---
 
