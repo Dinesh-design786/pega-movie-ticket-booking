@@ -99,6 +99,7 @@ Watch the complete demonstration of the **CineWave — Movie Ticket Booking Mana
 
 ▶️ **[Watch the Project Demo Video](https://drive.google.com/file/d/16UJsso6YDOQuXfghSqiu5q1U4K4hepMo/view?usp=sharing)**
 
+![Demo video ()
 The video demonstrates the Movie Ticket Request workflow and the implemented Pega application features.
 The booking price may need to be calculated manually.
 
