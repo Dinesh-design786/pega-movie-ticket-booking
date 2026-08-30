@@ -99,7 +99,10 @@ Watch the complete demonstration of the **CineWave — Movie Ticket Booking Mana
 
 ▶️ **[Watch the Project Demo Video](https://drive.google.com/file/d/16UJsso6YDOQuXfghSqiu5q1U4K4hepMo/view?usp=sharing)**
 
-![Demo video ()
+## 🎥 Application Demo
+
+![Ticketing and Booking Application Demo](pega_OPaHaUs0.mp4)
+
 The video demonstrates the Movie Ticket Request workflow and the implemented Pega application features.
 The booking price may need to be calculated manually.
 
@@ -141,6 +144,6 @@ The My Work section displays tasks assigned to users, including case types and t
 
 The application home page provides access to tasks, announcements, and other application features.
 
-![Application Home](screenshots/application-home.png)
+![Application Home]()
 ```text
 Ticket Price × Number of Tickets
