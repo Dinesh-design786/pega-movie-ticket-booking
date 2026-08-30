@@ -145,5 +145,125 @@ The My Work section displays tasks assigned to users, including case types and t
 The application home page provides access to tasks, announcements, and other application features.
 
 ![Application Home](ChatGPT1.png)
-```text
-Ticket Price × Number of Tickets
+
+stateDiagram-v2
+
+    [*] --> New
+
+    New --> InformationCaptured
+
+    InformationCaptured --> AvailabilityCheck
+
+    AvailabilityCheck --> BookingProcessing
+
+    BookingProcessing --> Confirmed
+
+    BookingProcessing --> Cancelled
+
+    Confirmed --> Resolved
+
+    Cancelled --> Resolved
+
+    Resolved --> [*]
+
+
+Case Types             ████████████████████  100%
+
+Data & Interfaces      ████████████████████  100%
+
+Personas & Channels    ████████████████████  100%
+
+User Stories           ████████████████████  100%
+
+Application Testing    ████████████████████  100%
+
+┌─────────────────────────┐
+│ 👤 CUSTOMER REQUEST     │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 🎬 SELECT MOVIE         │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 📅 SELECT SHOW          │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 💺 CHECK AVAILABILITY   │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 💰 CALCULATE COST       │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ ✅ CUSTOMER CONFIRMATION│
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 🎟️ PROCESS BOOKING     │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 📩 NOTIFY CUSTOMER      │
+└────────────┬────────────┘
+             │
+             ▼
+        🎉 RESOLVED
+
+
+
+
+
+
+
+                        👤 CUSTOMER
+                              │
+                              ▼
+              ┌────────────────────────────┐
+              │   🎬 CINEWAVE APPLICATION │
+              └─────────────┬──────────────┘
+                            │
+                            ▼
+              ┌────────────────────────────┐
+              │  🎟️ MOVIE TICKET REQUEST │
+              │           CASE             │
+              └─────────────┬──────────────┘
+                            │
+          ┌─────────────────┼─────────────────┐
+          │                 │                 │
+          ▼                 ▼                 ▼
+      🎬 MOVIE          📅 SHOW         ⚙️ BUSINESS
+     DATA OBJECT       DATA OBJECT         LOGIC
+          │                 │                 │
+          └─────────────────┼─────────────────┘
+                            │
+                            ▼
+                   🔄 CASE LIFECYCLE
+                            │
+                            ▼
+                   🔀 WORK ROUTING
+                            │
+                            ▼
+                   📩 NOTIFICATION
+                            │
+                            ▼
+                      🎉 RESOLVED
+
+
+
+
+
+
+
+
+
+                      
