@@ -93,11 +93,53 @@ This can result in:
 
 ---
 
-### 💰 Manual Cost Calculation
+## 🎥 Project Demonstration
 
+Watch the complete demonstration of the **CineWave — Movie Ticket Booking Management System**:
+
+▶️ **[Watch the Project Demo Video](https://drive.google.com/file/d/16UJsso6YDOQuXfghSqiu5q1U4K4hepMo/view?usp=sharing)**
+
+The video demonstrates the Movie Ticket Request workflow and the implemented Pega application features.
 The booking price may need to be calculated manually.
 
-For example:
+## 📸 Application Screenshots
 
+### 1. Development Overview
+
+The development overview shows the progress of the application, including completed case types, data objects, personas, and channels.
+
+![Development Overview](screenshots/development-overview.png)
+
+---
+
+### 2. Show Management Dashboard
+
+The Show Management dashboard displays important information such as revenue, booking volume, available seats, and show records.
+
+![Show Management Dashboard](screenshots/show-management-dashboard.png)
+
+---
+
+### 3. Case Management
+
+This screen displays the Show Management cases and their current work status.
+
+![Case Management](screenshots/case-management.png)
+
+---
+
+### 4. My Work
+
+The My Work section displays tasks assigned to users, including case types and their current status.
+
+![My Work](screenshots/my-work.png)
+
+---
+
+### 5. Application Home
+
+The application home page provides access to tasks, announcements, and other application features.
+
+![Application Home](screenshots/application-home.png)
 ```text
 Ticket Price × Number of Tickets
